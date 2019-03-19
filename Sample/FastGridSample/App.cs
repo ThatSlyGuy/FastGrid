@@ -6,7 +6,7 @@ namespace FastGridSample
     {
         public App()
         {
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainContentPage());
         }
     }
 }
